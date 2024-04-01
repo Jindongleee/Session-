@@ -19,6 +19,7 @@ public class Main {
                 max = i;
             }
         }
+        students.remove(max);
 
         // max 값을 가진 학생을 제외하고 출력
         for (int i = 0; i < students.size(); i++) {
